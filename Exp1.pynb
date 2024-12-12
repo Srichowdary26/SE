@@ -1,0 +1,16 @@
+def quadratic_weather_model(a, b, c, x):
+    # Calculate the value using the quadratic equation
+    y = a * x**2 + b * x + c
+    return y
+
+# Accept user input for coefficients a, b, c, and x
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+x_value = float(input("Enter value for x  "))
+
+# Calculate the result
+result = quadratic_weather_model(a, b, c, x_value)
+
+# Print the result
+print(f"The result for x={x_value} is: {result}")
