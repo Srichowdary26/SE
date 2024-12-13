@@ -16,3 +16,8 @@ result = quadratic_weather_model(a, b, c, x_value)
 print(f"The result for x={x_value} is: {result}")
 
 Output:
+Enter coefficient a: 26 
+Enter coefficient b: -10 
+Enter coefficient c: 48 
+Enter value for x 99 
+The result for x=99.0 is: 253884.0
